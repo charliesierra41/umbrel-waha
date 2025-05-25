@@ -1,19 +1,19 @@
 version: "3.7"
-
 services:
 
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: waha_server_1
-      APP_PORT: 3001
+      APP_PORT: 3000
       WHATSAPP_DEFAULT_ENGINE: NOWEB
       WHATSAPP_HOOK_EVENTS: message
       WHATSAPP_HOOK_URL: http://host.docker.internal:5678/webhook/106013bd-b6cc-493e-9b42-b9e325b25b38/waha #GET FROM YOUR N8N WAHA Trigger ProductionURL
-    
+    container_name: waha_app_proxy_1
   server:
-    image: devlikeapro/waha:latest
+    image: devlikeapro/waha-plus
     volumes:
-      - ${APP_DATA_DIR}/data:/home/node/.waha/tmp
+      - ${APP_DATA_DIR}/data:/tmp
     user: "1000:1000"
     init: true
+    container_name: waha_server_1
