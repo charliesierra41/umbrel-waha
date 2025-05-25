@@ -4,7 +4,7 @@ name: Waha
 tagline: https://waha.devlike.pro/
 icon: https://waha.devlike.pro/images/logo.svg
 category: Development
-version: "1.0.0"
+version: "1.0.1"
 port: 3000
 description: >-
   Now you can install waha on your umbrel.
