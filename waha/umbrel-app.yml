@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: waha
+name: Waha
+tagline: https://waha.devlike.pro/
+icon: https://waha.devlike.pro/images/logo.svg
+category: Development
+version: "1.0.0"
+port: 3001
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: Waha
+website: https://waha.devlike.pro/
+submitter: wladneto
+submission: https://github.com/wladneto/umbrel-waha
+repo: https://github.com/wladneto/umbrel-waha
+support: https://github.com/wladneto/umbrel-waha/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  First version for waha into umbrelOS
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
