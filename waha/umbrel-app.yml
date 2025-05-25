@@ -7,10 +7,9 @@ category: Development
 version: "1.0.0"
 port: 3000
 description: >-
-  Add your app's description here.
+  Now you can install waha on your umbrel.
 
-
-  You can also add newlines!
+  - 25/05/2025 - First version for Waha on umbrelOS
 
 developer: Waha
 website: https://waha.devlike.pro/
@@ -19,11 +18,11 @@ submission: https://github.com/wladneto/umbrel-waha
 repo: https://github.com/wladneto/umbrel-waha
 support: https://github.com/wladneto/umbrel-waha/issues
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://raw.githubusercontent.com/wladneto/umbrel-waha/refs/heads/main/assets/waha-01.jpeg
+  - https://raw.githubusercontent.com/wladneto/umbrel-waha/refs/heads/main/assets/waha-02.jpeg
+  - https://raw.githubusercontent.com/wladneto/umbrel-waha/refs/heads/main/assets/waha-03.jpeg
 releaseNotes: >-
-  First version for waha into umbrelOS
+  First version for Waha on umbrelOS
 dependencies: []
 path: ""
 defaultUsername: ""
