@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: waha
 name: Waha
-tagline: https://waha.devlike.pro/
+tagline: WAHA - WhatsApp API that you can run in a click!
 icon: https://waha.devlike.pro/images/logo.svg
 category: Development
 version: "1.0.0"
